@@ -7,7 +7,7 @@ const BookStoreRoutes = require("./routes/bookStoreRoutes");
 
 app.use(express.json());
 
-app.use("/api/bookstore", BookStoreRoutes);
+app.use("/api/bookstore/books", BookStoreRoutes);
 
 database.connect();
 
